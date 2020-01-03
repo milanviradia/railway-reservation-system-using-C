@@ -1,16 +1,15 @@
 
-1st Terminal : (SERVER)
-cc s.c -lpthread
+1st Terminal : (starting SERVER)
+cc server.c -lpthread
 ./a.out 9999
 (./a.out port_no)
 
 
 
 2nd Terminal : (CLIENT)
-cc c.c
+cc client.c
 ./a.out 127.0.0.1 9999
 (./a.out server_ip port_no)
 
-
-
+admin username : admin
 admin password : admin
